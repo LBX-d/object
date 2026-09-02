@@ -1,0 +1,23 @@
+# ============ Web 框架 ============
+fastapi>=0.115.0
+uvicorn[standard]>=0.30.0
+python-multipart>=0.0.9          # 文件上传解析
+python-dotenv>=1.0.1             # 读取 .env 环境变量
+
+# ============ 数据模型与校验 ============
+sqlalchemy>=2.0.30               # ORM 数据库操作
+pydantic>=2.8.0                  # 数据校验模型
+pydantic-settings>=2.4.0         # 配置管理
+
+# ============ 深度学习（YOLOv8 检测） ============
+torch>=2.6.0                     # PyTorch（Windows 默认安装 GPU/CUDA 版）
+ultralytics>=8.3.40              # YOLOv8 框架
+numpy>=1.26.0
+
+# ============ 图像处理 ============
+opencv-python>=4.10.0
+pillow>=10.4.0
+
+# ============ 测试 ============
+pytest>=8.2.0
+httpx>=0.27.0                    # TestClient 依赖

@@ -1,0 +1,24 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+.pytest_cache/
+
+# 运行时产物（不入库）
+backend/uploads/*
+backend/results/*
+backend/temp/*
+backend/logs/*
+backend/data/*
+backend/models/*.pt
+!backend/models/best.pt
+backend/train/runs/
+backend/train/datasets/
+
+# 保留目录本身
+!backend/uploads/.gitkeep
+!backend/results/.gitkeep
+
+# Node
+node_modules/
+dist/
